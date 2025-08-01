@@ -17,8 +17,8 @@ export default siteConfig({
   description: 'portfolio and resume',
 
   // social usernames (optional)
-  instagram: 'parishkakiara',
-  linkedin: 'parishkakiara',
+  //instagram: 'parishkakiara',
+ // linkedin: 'parishkakiara',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
