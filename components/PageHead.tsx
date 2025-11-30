@@ -65,7 +65,7 @@ export function PageHead({
         <meta name='twitter:creator' content={`@${config.twitter}`} />
       )}
 
-      {description && !socialImageURL && (
+      {description && !socialImageUrl && (
         <>
           <meta name='description' content={description} />
           <meta property='og:description' content={description} />
