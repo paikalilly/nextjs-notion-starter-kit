@@ -47,9 +47,9 @@ export default class MyDocument extends Document {
     // source of truth from localStorage
     setClassOnDocumentBody(localStorageTheme)
   } else if (supportsColorSchemeQuery) {
-    // source of truth from system
-    setClassOnDocumentBody(mql.matches)
-    localStorage.setItem(storageKey, mql.matches)
+    // default to dark mode
+    setClassOnDocumentBody(true)
+    localStorage.setItem(storageKey, true)
   } else {
     // source of truth from document.body
     var isDarkMode = document.body.classList.contains(classNameDark)
