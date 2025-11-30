@@ -3,20 +3,10 @@
   "short_name": "Starter Kit",
   "icons": [
     {
-      "src": "/starry-sky.png",
-      "type": "image/png",
-      "sizes": "32x32"
-    },
-    {
-      "src": "/starrysky-128x128.png",
-      "type": "image/png",
-      "sizes": "128x128"
-    },
-    {
-      "src": "/starrysky-192x192.png",
+      "src": "/star.png",
       "type": "image/png",
       "sizes": "192x192"
-    }
+    },
   ],
   "theme_color": "#000000",
   "background_color": "#000000",
