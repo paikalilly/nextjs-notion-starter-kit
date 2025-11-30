@@ -15,6 +15,7 @@ export default siteConfig({
 
   // open graph metadata (optional)
   description: 'portfolio and resume',
+  ogImage: '/star.png',
 
   // social usernames (optional)
   //instagram: 'parishkakiara',
